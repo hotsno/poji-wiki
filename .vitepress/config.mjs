@@ -30,6 +30,9 @@ export default defineConfig({
         ]
       }
     ],
-    socialLinks: []
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/hotsno/poji' },
+      { icon: 'discord', link: 'https://discord.gg/2HwxyuSQHm' }
+    ]
   }
 });
