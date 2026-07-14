@@ -23,3 +23,13 @@ Browsers may require renewed permission before a site can read a local file hand
 ## Is AniList required?
 
 No. AniList is optional. Poji works as a local reader without signing in.
+
+## Why does the library not show cover art?
+
+Poji's UI is minimal and opinionated by design.
+
+If there's enough demand, a more traditional library view may be added later as an option.
+
+## Why is Poji a website instead of a native app?
+
+Running in the browser makes Poji cross-platform and removes the install step. The same library experience can work across desktop operating systems and other supported browsers without maintaining a separate native app for each platform.

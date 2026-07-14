@@ -9,8 +9,6 @@ Poji runs in the browser and reads manga archives that you provide.
 3. Wait for Poji to scan the archives and add them to your library.
 4. Select a series, then open a volume or chapter.
 
-Poji also accepts ZIP-style comic archives when they use the `.cbz` format.
-
 ## File Names
 
 Poji uses the archive name to infer the series name and volume number.
@@ -26,15 +24,13 @@ If no volume number is found, Poji still imports the file and treats it as an un
 
 ## Chapter Detection
 
-Poji reads image files inside the CBZ and sorts pages naturally, so `page2` comes before `page10`.
-
-When page names include chapter numbers like `c001`, Poji groups pages into chapters. If no chapter numbers are found, the archive is treated as one full-volume chapter.
+When image files within the `.cbz` include chapter numbers like `c001`, Poji groups pages into chapters. If no chapter numbers are found, the archive is treated as one full-volume chapter.
 
 ## Storage
 
 Poji supports two storage modes:
 
-- **File System** keeps a browser file handle for each imported CBZ when the browser supports it.
-- **IndexedDB** stores archive data inside the browser profile.
+- **File System** uses the original `.cbz` file on your disk. As of now, only Chromium-based browsers support this well.
+- **IndexedDB** creates a copy of the `.cbz` inside your browser's storage.
 
-If Poji asks for permission to read a file again later, grant access so it can reopen the original CBZ.
+When using **File System** Poji may ask for permission to read a file again later. Chrome has the option to remember this permission forever.

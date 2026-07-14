@@ -4,6 +4,9 @@ export default defineConfig({
   title: 'Poji Wiki',
   description: 'A barebones wiki for the Poji manga reader.',
   cleanUrls: true,
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+  ],
   themeConfig: {
     logo: '/logo.svg',
     search: {
