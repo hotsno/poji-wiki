@@ -56,3 +56,6 @@ For comparison material, see:
 
 - [Poji compared with another iOS manga reader](https://slow.pics/c/LSE8ivcs)
 - [How several manga apps handle Moiré](https://slow.pics/c/5JzAn5w7)
+
+
+Note that some browsers don't currently support Lanczos scaling. Brave and Helium are known to have issues. Chrome, Firefox, and Safari are confirmed to work. A message will be printed to your browser's console if unsupported.
