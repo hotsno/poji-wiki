@@ -13,11 +13,11 @@ hero:
 
 features:
   - title: Bring Your Own Manga
-    details: Poji reads local CBZ and ZIP-based manga archives. It does not include or source manga content for you.
+    details: Poji reads local CBZ manga/comic archives. It does not include or source manga content for you.
   - title: Local Library
-    details: Imported volumes are organized by series, with covers, volume ordering, and chapter detection handled in-browser.
+    details: Imported volumes are organized by series and volumes/chapters are automatically detected from file names.
   - title: Reader Progress
-    details: Poji remembers where you left off and can advance through chapters with left-to-right or right-to-left navigation.
+    details: Poji remembers your progress and lets you continue reading right where you left off.
   - title: Cleaner Resizing
     details: Lanczos image resizing helps high-resolution pages avoid distracting Moiré artifacts.
   - title: AniList Sync
