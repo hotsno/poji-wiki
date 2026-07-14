@@ -10,6 +10,11 @@ hero:
     - theme: alt
       text: Getting Started
       link: /getting-started
+    - theme: alt
+      text: Use the app! ↗
+      link: https://poji.app
+      target: _blank
+
 
 features:
   - title: Bring Your Own Manga
